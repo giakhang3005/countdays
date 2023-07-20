@@ -154,6 +154,13 @@ footer {
             margin: 0;
             padding-bottom: 2rem;
       }
+      
+      
+}
+@media (max-width: 650px) {
+      .fallingheart {
+            display: none;
+      }
 }
 
 a {

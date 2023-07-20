@@ -161,7 +161,7 @@ a {
 a:hover, p:hover {
       scale: 1.2;
       transition: scale 0.4s;
-      animation: glow 2s infinite linear;
+      animation: glow 2.6s infinite linear;
 }
 .bumpheart {
       animation: pump 1.2s infinite linear;

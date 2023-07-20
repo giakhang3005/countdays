@@ -160,6 +160,7 @@ footer {
 a {
       color: #e381db;
       text-decoration: none;
+      transition: scale 0.4s;
 }
 a:hover, p:hover {
       scale: 1.2;
@@ -232,6 +233,9 @@ a:hover, p:hover {
 }
 .one, .two {
       animation: fadeUp 0.6s linear;
+}
+img {
+      transition: scale 0.25s;
 }
 img:hover {
       scale: 1.1;

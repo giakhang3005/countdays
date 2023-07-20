@@ -111,7 +111,10 @@ footer {
       grid-column: 2;
       position: relative;
       z-index: 1000;
-      opacity: .4;
+      opacity: 0.4;
+      border-radius: 7px;
+      background-color: #f6c8f4;
+      margin-left: 20px;
 }
 
 #mask {

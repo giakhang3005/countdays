@@ -190,9 +190,9 @@ a:hover, p:hover {
 .fallingheart:nth-child(2) {
       animation: fall 14s infinite linear;
 }
-.fallingheart:nth-child(3) {
+.fallingheart:nth-child(17) {
       animation: fall 20s infinite linear;
-      animation-delay: 5s;
+      
 }
 .fallingheart:nth-child(4) {
       animation: fall 15s infinite linear;
@@ -201,7 +201,7 @@ a:hover, p:hover {
 .fallingheart:nth-child(5) {
       animation: fall 18s infinite linear;
 }
-.fallingheart:nth-child(6) {
+.fallingheart:nth-child(3) {
       animation: fall 22s infinite linear;
 }
 .fallingheart:nth-child(7) {
@@ -218,7 +218,6 @@ a:hover, p:hover {
 }
 .fallingheart:nth-child(10) {
       animation: fall 20s infinite linear;
-      
 }
 .fallingheart:nth-child(11) {
       animation: fall 15s infinite linear;
@@ -243,7 +242,7 @@ a:hover, p:hover {
 .fallingheart:nth-child(16) {
       animation: fall 24s infinite linear;
 }
-.fallingheart:nth-child(17) {
+.fallingheart:nth-child(6) {
       animation: fall 20s infinite linear;
 }
 .one, .two {

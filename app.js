@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded",function () {
     //calculate ml age
     if (today.getMonth() < mlBirthDate.getMonth()) {
       mlAge = mlAge - 1;
-    } else if (today.getMonth() == gkBirthDate.getMonth()) {
-      if (today.getDate() < gkBirthDate.getDate()) {
+    } else if (today.getMonth() == mlBirthDate.getMonth()) {
+      if (today.getDate() < mlBirthDate.getDate()) {
         mlAge = mlAge - 1;
       }
     }

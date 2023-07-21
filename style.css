@@ -167,6 +167,7 @@ a {
       color: #e381db;
       text-decoration: none;
       transition: scale 0.4s;
+      display: relative;
 }
 a:hover, p:hover {
       scale: 1.2;
@@ -303,6 +304,9 @@ img {
       font-size: 12px;
       transform: translateX(310px);
       margin-top: 50px;
+}
+agegk, ageml, .zodiac {
+      font-size: 10px;
 }
 @keyframes glow {
       0% {

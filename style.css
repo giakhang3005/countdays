@@ -285,8 +285,8 @@ img {
 }
 .fallingimg {
       display: relative;
-      height: 50px;
-      width: 50px;
+      height: 40px;
+      width: 40px;
       object-fit: cover;
       border-radius: 50%;
       box-shadow: 2px 2px 8px rgba(0,0,0,.2);  

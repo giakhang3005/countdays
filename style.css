@@ -154,12 +154,28 @@ footer {
             margin: 0;
             padding-bottom: 2rem;
       }
+      .copyright {
+            display: block;
+            width: 100%;
+            color: grey;
+            font-size: 12px;
+            transform: translateX(310px);
+            margin-top: 50px;
+      }
       
       
 }
 @media (max-width: 650px) {
       .fallingheart {
             display: none;
+      }
+      .copyright {
+            display: block;
+            width: 100%;
+            color: grey;
+            font-size: 10px;
+            transform: translateX(220px);
+            margin-top: 50px;
       }
 }
 
@@ -296,14 +312,6 @@ img {
       animation-play-state: paused;
       box-shadow: 3px 3px 10px rgba(0,0,0,.4);  
       transition: box-shadow 0.15s linear;
-}
-.copyright {
-      display: block;
-      width: 100%;
-      color: grey;
-      font-size: 12px;
-      transform: translateX(310px);
-      margin-top: 50px;
 }
 agegk, ageml, .zodiac {
       font-size: 10px;

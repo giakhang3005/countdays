@@ -177,22 +177,22 @@ a:hover, p:hover {
       animation: pump 1.2s infinite linear;
 }
 .fallingheart {
-      transform: translate(50px, -100px);
+      transform: translate(50px, -120px);
       margin: 0;
       padding: 0;
       color: pink;
       display:relative;
       align-items: center;
 }
-.fallingheart:nth-child(1) {
+.fallingheart:nth-child(1) { /* img */
       animation: fall 25s infinite linear;
 }
 .fallingheart:nth-child(2) {
       animation: fall 14s infinite linear;
 }
-.fallingheart:nth-child(17) {
-      animation: fall 20s infinite linear;
-      
+.fallingheart:nth-child(3) { /* img */
+      animation: fall 22s infinite linear;
+      animation-delay: 10s;
 }
 .fallingheart:nth-child(4) {
       animation: fall 15s infinite linear;
@@ -201,8 +201,8 @@ a:hover, p:hover {
 .fallingheart:nth-child(5) {
       animation: fall 18s infinite linear;
 }
-.fallingheart:nth-child(3) {
-      animation: fall 22s infinite linear;
+.fallingheart:nth-child(6) {
+      animation: fall 20s infinite linear;
 }
 .fallingheart:nth-child(7) {
       animation: fall 25s infinite linear;
@@ -242,9 +242,33 @@ a:hover, p:hover {
 .fallingheart:nth-child(16) {
       animation: fall 24s infinite linear;
 }
-.fallingheart:nth-child(6) {
-      animation: fall 20s infinite linear;
+.fallingheart:nth-child(17) { /* img */
+      animation: fall 20s infinite linear;  
 }
+.fallingheart:nth-child(18) { /* img */
+      animation: fall 28s infinite linear;  
+      animation-delay: 2s;
+}
+.fallingheart:nth-child(19) { /* img */
+      animation: fall 22s infinite linear;  
+}
+.fallingheart:nth-child(20) { /* img */
+      animation: fall 22s infinite linear;  
+      animation-delay: 2s;
+}
+.fallingheart:nth-child(21) { /* img */
+      animation: fall 27s infinite linear;  
+      animation-delay: 7s;
+}
+.fallingheart:nth-child(22) { /* img */
+      animation: fall 31s infinite linear;  
+      animation-delay: 10s;
+}
+.fallingheart:nth-child(23) { /* img */
+      animation: fall 26s infinite linear;  
+      animation-delay: 9s;
+}
+
 .one, .two {
       animation: fadeUp 0.6s linear;
 }
@@ -259,6 +283,7 @@ img {
       animation: shake 2s infinite;
 }
 .fallingimg {
+      display: relative;
       height: 50px;
       width: 50px;
       object-fit: cover;
@@ -270,6 +295,11 @@ img {
       animation-play-state: paused;
       box-shadow: 3px 3px 10px rgba(0,0,0,.4);  
       transition: box-shadow 0.15s linear;
+}
+.copyright {
+      display: block;
+      width: 100%;
+      color: grey;
 }
 @keyframes glow {
       0% {

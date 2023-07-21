@@ -177,16 +177,15 @@ a:hover, p:hover {
       animation: pump 1.2s infinite linear;
 }
 .fallingheart {
-      transform: translate(50px, -32px);
+      transform: translate(50px, -70px);
       margin: 0;
       padding: 0;
       color: pink;
       display:relative;
-      animation: fall 5s infinite linear;
+      align-items: center;
 }
 .fallingheart:nth-child(1) {
-      animation: fall 19s infinite linear;
-      animation-delay: 5s;
+      animation: fall 21s infinite linear;
 }
 .fallingheart:nth-child(2) {
       animation: fall 14s infinite linear;
@@ -237,18 +236,35 @@ a:hover, p:hover {
       animation: fall 25s infinite linear;
       animation-delay: 4s;
 }
+.fallingheart:nth-child(15) {
+      animation: fall 22s infinite linear;
+      animation-delay: 8s;
+}
 .one, .two {
       animation: fadeUp 0.6s linear;
 }
 img {
       transition: scale 0.25s;
 }
-img:hover {
+.avt:hover {
       scale: 1.1;
       transition: scale 0.25s;
 }
 #clock-box {
       animation: shake 2s infinite;
+}
+.fallingimg {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 2px 2px 8px rgba(0,0,0,.2);  
+      transition: box-shadow 0.15s linear;
+}
+.fallingimg:hover {
+      animation-play-state: paused;
+      box-shadow: 3px 3px 10px rgba(0,0,0,.4);  
+      transition: box-shadow 0.15s linear;
 }
 @keyframes glow {
       0% {

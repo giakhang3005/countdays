@@ -154,14 +154,6 @@ footer {
             margin: 0;
             padding-bottom: 2rem;
       }
-      .copyright {
-            display: block;
-            width: 100%;
-            color: grey;
-            font-size: 12px;
-            transform: translateX(310px);
-            margin-top: 50px;
-      }
       
       
 }
@@ -169,16 +161,15 @@ footer {
       .fallingheart {
             display: none;
       }
-      .copyright {
-            display: block;
-            width: 100%;
-            color: grey;
-            font-size: 10px;
-            transform: translateX(220px);
-            margin-top: 50px;
-      }
 }
-
+.copyright {
+      display: block;
+      width: 100%;
+      color: grey;
+      font-size: 12px;
+      transform: translateX(120%);
+      margin-top: 50px;
+}
 a {
       color: #e381db;
       text-decoration: none;

@@ -126,6 +126,15 @@ footer {
       left: 0;
 }
 
+.copyright {
+      display: block;
+      width: 100%;
+      color: grey;
+      font-size: 12px;
+      transform: translateX(120%);
+      margin-top: 50px;
+}
+
 @media (max-width: 992px) {
       #wrapper {
             grid-column: span 12;
@@ -161,15 +170,6 @@ footer {
       .fallingheart {
             display: none;
       }
-}
-.copyright {
-      display: block;
-      width: 100%;
-      color: grey;
-      font-size: 12px;
-      transform: translateX(120%);
-      margin-top: 50px;
-}
 a {
       color: #e381db;
       text-decoration: none;

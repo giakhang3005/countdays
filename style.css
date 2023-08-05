@@ -376,3 +376,39 @@ agegk, ageml, .zodiac {
             rotate: -1deg;
       }
 }
+
+/* Loading */
+#loadWrapper {
+      background-color: white;
+      display: flex;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      align-items: center;
+      justify-content: center;
+  }
+  #loadWrapper .LoadingSpin {
+      position: relative;
+      border: 5px solid gray;
+      border-top: 5px solid pink;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 0.8s infinite ease-in;
+  
+  }
+  @keyframes spin {
+      0% {
+          rotate: 360deg;
+      }
+      35% {
+          rotate: -240deg;
+      }
+      70% {
+          rotate: -120deg;
+      }
+      100% {
+          rotate: 0deg;
+      }
+  }
